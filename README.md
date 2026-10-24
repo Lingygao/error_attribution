@@ -13,8 +13,7 @@ We provide the training and testing filename lists `train.txt` and `test.txt` fo
 ## Adjusted Phoneme-aware alignment(power alignment) and three-pass alignment
 The documents to describe Adjusted Phoneme-aware alignment(power alignment) and three-pass alignment are in folder Power_alignment/ and three-pass-alignment
 
-The code to achieve the algorithm are in the main folder
-
+The code to achieve the algorithm are in the main folder including `/power-asr-master/` and 
 ## Uncertainty signals
 
 We try to find valid Whisper uncertainty signals based on Whisper output, speech audio and prompt:
