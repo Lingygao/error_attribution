@@ -32,7 +32,6 @@ Step 0: Normalize the inputs.
 Step 1: Align PR (reference) with MT (hypothesis).
 Step 2: Align PR (reference) with AO (hypothesis).
 Step 3: Align MT (reference) with AO (hypothesis).
-
 Step 4: Merge the three outputs.
 For each AO token:
   a. Use its position in MT-AO to find its associated MT token(s).
