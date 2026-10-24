@@ -21,31 +21,31 @@ We try to find valid Whisper uncertainty signals based on Whisper output, speech
 
 Run the following scripts independently:
 
-batch_lm_word_scores_from_newsegments.py
+`batch_lm_word_scores_from_newsegments.py`
   -> Vanilla Whisper confidence (lm_confidence) and entropy (lm_entropy).
 
-batch_whisperx_alignment_scores_from_fulltext.py
+`batch_whisperx_alignment_scores_from_fulltext.py`
   -> CTC word score (A_ctc) and entropy (audio_entropy).
 
-batch_decoding_consistency_from_newsegments.py
+`batch_decoding_consistency_from_newsegments.py`
   -> Word-level decoding_consistency.
 
-prepare_jasmin.py
+`prepare_jasmin.py`
   -> Build a manifest using existing PR-ASR alignments and ASR segments.
      Requires the project data layout and train.txt/test.txt.
 
-batch_ctc_contrast.py
+`batch_ctc_contrast.py`
   -> Generate word_contrast.csv.
      Word contrast = CTC score(prompt) - CTC score(ASR), using the same
      audio window. It is generated for eligible substitution groups.
 
-batch_merge_speaker_signal_tables.py. to merge the feature
+`batch_merge_speaker_signal_tables.py` to merge the feature
 
-batch_link_task_labels_with_signals.py to connect the merged
+`batch_link_task_labels_with_signals.py` to connect the merged
 
-transcribe_vad_segments_beam.py and text_normalization.py are supporting files
+`transcribe_vad_segments_beam.py` and `text_normalization.py` are supporting files
 
-notes and notice: cross-attention feature is now deprecated, relvant codes batch_cross_attention_from_newsegments.py are also deprecated, those results are not included in the paper
+notes and notice: cross-attention feature is now deprecated, relvant codes `batch_cross_attention_from_newsegments.py` are also deprecated, those results are not included in the paper
 
 ## Evaluation
 
@@ -54,11 +54,11 @@ and Aggregating all singals using logistic regression
 
 To evaluate, run the following scripts when the table containing each word with task label and singal:
 
-evaluate_six_signal_lr.py
+`evaluate_six_signal_lr.py`
   -> Trains LR models and eval on different metrics including AUC and 95% speaker-bootstrap. 
 
-paired_all_vs_vanilla.py
+`paired_all_vs_vanilla.py`
   -> This is used when compare different settings of LR, extracts selected paired comparisons and checks them against the previously saved pairwise results
 
-six_signal_config.py
+`six_signal_config.py`
   -> select signals
