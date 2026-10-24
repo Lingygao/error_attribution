@@ -64,6 +64,6 @@ To evaluate, run the following scripts when the table containing each word with 
   -> select signals
 
   ## Model
-  transcribing： openai/whisper-large-v2, openai/whisper-large-v3
+  Transcribing: openai/whisper-large-v2, openai/whisper-large-v3
   
-  audio2text forced alignment: GroNLP/wav2vec2-dutch-large
+  Audio-text forced alignment: GroNLP/wav2vec2-dutch-large
