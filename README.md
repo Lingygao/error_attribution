@@ -17,4 +17,34 @@ The code to achieve the algorithm are in the main folder
 
 ## Uncertainty signals
 
+We try to find valid Whisper uncertainty signals based on Whisper output, speech audio and prompt:
+
+Run the following scripts independently:
+
+batch_lm_word_scores_from_newsegments.py
+  -> Vanilla Whisper confidence (lm_confidence) and entropy (lm_entropy).
+
+batch_whisperx_alignment_scores_from_fulltext.py
+  -> CTC word score (A_ctc) and entropy (audio_entropy).
+
+batch_decoding_consistency_from_newsegments.py
+  -> Word-level decoding_consistency.
+
+prepare_jasmin.py
+  -> Build a manifest using existing PR-ASR alignments and ASR segments.
+     Requires the project data layout and train.txt/test.txt.
+
+batch_ctc_contrast.py
+  -> Generate word_contrast.csv.
+     Word contrast = CTC score(prompt) - CTC score(ASR), using the same
+     audio window. It is generated for eligible substitution groups.
+
+batch_merge_speaker_signal_tables.py. to merge the feature
+
+batch_link_task_labels_with_signals.py to connect the merged
+
+transcribe_vad_segments_beam.py and text_normalization.py are supporting files
+
+* notice: cross-attention feature is now deprecated
+
 ## evaluation
