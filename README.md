@@ -14,3 +14,7 @@ We provide the training and testing filename lists for replication
 The documents to describe Adjusted Phoneme-aware alignment(power alignment) and three-pass alignment are in folder Power_alignment/ and three-pass-alignment
 
 The code to achieve the algorithm are in the main folder
+
+## Uncertainty signals
+
+## evaluation
