@@ -73,16 +73,13 @@ Keep these project-relative paths:
 These are proposed assumptions for interpreting the data, not established
 findings or additional rules automatically enforced by the code.
 
-H1. Attempted decoding.
+H1. Attempted decoding for motivating filtering.
     In a prompted reading task, the child is assumed to attempt to decode
-    the printed word into speech. Deviations may reflect an unsuccessful
+    the printed word into speech. Speech mistake mainly reflect an unsuccessful
     decoding attempt. Here "decoding" refers to the child's reading
-    process, not ASR beam search. Skipping, guessing, distraction, and
-    off-task speech are possible exceptions.
-
-H2. Prompt correspondence.
-    The supplied prompt corresponds to the material presented in the
-    recording and is in the correct order.
+    process, not ASR beam search. 
+    Distraction like pronoucing prompt-agnostic words, 
+    and other off-task speech are possible exceptions that are rare and can be filterd
 
 
 
