@@ -45,7 +45,7 @@ batch_link_task_labels_with_signals.py to connect the merged
 
 transcribe_vad_segments_beam.py and text_normalization.py are supporting files
 
-* notice: cross-attention feature is now deprecated, relvant codes batch_cross_attention_from_newsegments.py are also deprecated
+notes and notice: cross-attention feature is now deprecated, relvant codes batch_cross_attention_from_newsegments.py are also deprecated
 
 ## Evaluation
 
