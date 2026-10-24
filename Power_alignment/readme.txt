@@ -52,7 +52,7 @@ Long error regions:
 Timeout:
   Each speaker/task pair runs in a separate subprocess with a default timeout of 300 seconds. 
   On timeout, the subprocess is terminated
-  Special alignment.py will be required to rerun those tasks
+  Separate recovery procedures will be required to rerun those tasks, see next section
 
 5. Separate recovery procedures
 -------------------------------
