@@ -20,7 +20,7 @@ For "omdat" and "ik":
   PR:              **omdat ik die**
   AO: omdat ik die **omdat ik die**
 
-Thus, the first AO "omdat" and "ik" receive C/C/I .
+Thus, the first AO "omdat", "ik","die" receive C/C/I .
 
 These are zero-based ASR token indices from the audit, not audio times.
 
