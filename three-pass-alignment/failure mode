@@ -31,3 +31,5 @@ their apparent insertion status depends on the inconsistent placement of
 the repeated words. This can introduce misleading insertion examples.
 The example illustrates path ambiguity; it does not establish which
 occurrence is correct without further evidence.
+
+/repair_cci_alignment.py is used to remove those systematic failure cases
