@@ -1,0 +1,2 @@
+networkx>=3.6
+num2words>=0.5.14
