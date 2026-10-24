@@ -108,7 +108,7 @@ A. Rerun a difficult alignment
       Pronunciation lookup and strict lexicon handling.
   /power-asr-master/power.py
       POWER command-line options.
-  /text_normalization.py
+  text_normalization.py
       Dutch text normalization.
 
   /Power_alignment/special_*_alignment.py
