@@ -6,3 +6,7 @@ Trustworthy automated reading assessment for children requires distinguishing ch
 
 ## Data Split
 
+Jasmin is a spoken Dutch corpus containing children, elderly and non-native Dutch speakers. We benchmark a standard Dutch ASR system (trained on non-children, non-elderly native speakers) in various types of speech in Jasmin. The Jasmin corpus can be found here: (https://www.aclweb.org/anthology/L06-1141/). It available for academic research. Please contact the developers for the access to this corpus.
+We provide the training and testing filename list for replication
+
+##
