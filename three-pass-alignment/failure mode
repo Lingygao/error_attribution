@@ -6,7 +6,7 @@ An example is
   MT: omdat ik die omdat k  die
   AO: omdat ik die omdat ik die
 
-For "omdat" and "ik":
+For the first "omdat", "ik", "die" :
   PR-MT matches the FIRST MT occurrence to PR as C.
   PR: **omdat ik die**
   MT: **omdat ik die** omdat k  die
