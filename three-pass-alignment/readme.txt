@@ -15,6 +15,17 @@ These labels are relative to the reference and hypothesis in each pass.
 The term "hypothesis" in an alignment means its second input sequence;
 it is distinct from the research hypotheses listed at the end.
 
+0. hypothese
+------------------------------------------------
+
+H1. Attempted decoding for motivating filtering.
+    In a prompted reading task, the child is assumed to attempt to decode
+    the printed word into speech. Speech mistake mainly reflect an unsuccessful
+    decoding attempt. Here "decoding" refers to the child's reading
+    process, not ASR beam search. 
+    Distraction like pronoucing prompt-agnostic words, 
+    and other off-task speech are possible exceptions that are rare and can be filterd
+
 1. Implementation steps
 -----------------------
 Step 0: Normalize the inputs.
@@ -45,7 +56,6 @@ For either eligible task:
 A Human label does not require AO to match MT exactly. 
 
 
-
 3. Required code and resources
 ------------------------------
 Keep these project-relative paths:
@@ -68,18 +78,6 @@ Keep these project-relative paths:
   scripts/batch_add_task_labels.py
     Batch wrapper for task labeling. step 4
 
-6. Working hypotheses and assumptions 
-------------------------------------------------
-These are proposed assumptions for interpreting the data, not established
-findings or additional rules automatically enforced by the code.
-
-H1. Attempted decoding for motivating filtering.
-    In a prompted reading task, the child is assumed to attempt to decode
-    the printed word into speech. Speech mistake mainly reflect an unsuccessful
-    decoding attempt. Here "decoding" refers to the child's reading
-    process, not ASR beam search. 
-    Distraction like pronoucing prompt-agnostic words, 
-    and other off-task speech are possible exceptions that are rare and can be filterd
 
 
 
