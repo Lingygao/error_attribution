@@ -1,4 +1,5 @@
-In human auditing process, we found an failure mode in this system: cci failure
+In human auditing process, we found an failure mode in this system: cci failure,
+caused by both ASR recovering speech mistakes and alignment internal confusion mode
 
 An example is 
 
