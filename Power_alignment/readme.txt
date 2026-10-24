@@ -86,6 +86,9 @@ It is also possible to further lower down the maximum to 1-1 or Maximum phonetic
       Dutch text normalization.
 
   /Power_alignment/special_*_alignment.py
+      Anomaly recovery processing
+  /output/alignment/merged_lexicon.power.json 
+      generated lexicon
 
 
 
