@@ -20,13 +20,12 @@ For the first "omdat", "ik", "die" :
   PR:              **omdat ik die**
   AO: omdat ik die **omdat ik die**
 
-Thus, the first AO "omdat", "ik","die" receive C/C/I .
+The PR-AO are still valid guess. Thus, the first AO "omdat", "ik","die" receive C/C/I .
 
-These are zero-based ASR token indices from the audit, not audio times.
 
-Under the base attribution rule, PR-AO=I makes these task-2 candidates,
+Under the base attribution rule, PR-AO=I makes these insertion candidates,
 and all-C PR-MT labels assign them label 1 (ASR false alarm). However,
 their apparent insertion status depends on the inconsistent placement of
-the repeated words. This can introduce misleading task-2 examples.
+the repeated words. This can introduce misleading insertion examples.
 The example illustrates path ambiguity; it does not establish which
 occurrence is correct without further evidence.
