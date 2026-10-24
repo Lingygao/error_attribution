@@ -26,6 +26,12 @@ H1. Attempted decoding for motivating filtering.
     Distraction like pronoucing prompt-agnostic words, 
     and other off-task speech are possible exceptions that are rare and can be filterd
 
+H2. Transcibing speech mistake can have multiple correct transcriptions
+    Since speech mistake can inherently admit multiple plausible transcriptions, 
+    we adopt a more lenient selection criterion, 
+    considering transcriptions acceptable as long as they are phonetically similar to the intended prompt word.
+    Thus, small transcribing error for speech mistake is acceptable and only regarded as human mistake not ASR error
+
 1. Implementation steps
 -----------------------
 Step 0: Normalize the inputs.
