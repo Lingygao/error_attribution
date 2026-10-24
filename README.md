@@ -47,4 +47,10 @@ transcribe_vad_segments_beam.py and text_normalization.py are supporting files
 
 * notice: cross-attention feature is now deprecated
 
-## evaluation
+## Evaluation
+
+We used AUC with bootstrap (paird boostrap) to evaluate the performance of each single uncertainty signal
+and Aggregating all singals using logistic regression
+
+To evaluate, run the following scripts when the table containing each word with task label and singal:
+
