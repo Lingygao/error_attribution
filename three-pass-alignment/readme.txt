@@ -18,7 +18,7 @@ it is distinct from the research hypotheses listed at the end.
 0. hypothese
 ------------------------------------------------
 
-H1. Attempted decoding for motivating filtering.
+H1. Decoding should be the main attempt of children in reading aloud task: motivation for filtering.
     In a prompted reading task, the child is assumed to attempt to decode
     the printed word into speech. Speech mistake mainly reflect an unsuccessful
     decoding attempt. Here "decoding" refers to the child's reading
