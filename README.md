@@ -50,7 +50,7 @@ notes and notice: cross-attention feature is now deprecated, relvant codes `batc
 ## Evaluation
 
 We used AUC with 95% bootstrap (paird boostrap) to evaluate the performance of each single uncertainty signal
-and Aggregating all singals using logistic regression
+and Aggregating all singals using logistic regression (LR)
 
 To evaluate, run the following scripts when the table, containing each word with task label and corresponding signals, is ready:
 
