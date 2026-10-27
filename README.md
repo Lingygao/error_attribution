@@ -52,7 +52,7 @@ notes and notice: cross-attention feature is now deprecated, relvant codes `batc
 We used AUC with 95% bootstrap (paird boostrap) to evaluate the performance of each single uncertainty signal
 and Aggregating all singals using logistic regression
 
-To evaluate, run the following scripts when the table containing each word with task label and singal:
+To evaluate, run the following scripts when the table containing each word with task label and singal is ready:
 
 `evaluate_six_signal_lr.py`
   -> Trains LR models and eval on different metrics including AUC and 95% speaker-bootstrap. 
