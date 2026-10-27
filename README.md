@@ -63,6 +63,7 @@ To evaluate, run the following scripts when the table, containing each word with
 `six_signal_config.py`
   -> select signals
 
+`auc_ece.ipynb` is supportive file
   **notice: the evaluation will provides results of three tasks instead of two in the paper: santity check task (correct vs incorrect classification) (not included in the paper), insertion mistake (human vs ASR), substitution mistake (human vs ASR)
 
   ## Model
