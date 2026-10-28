@@ -22,13 +22,13 @@ We try to find valid Whisper uncertainty signals based on Whisper output, speech
 Run the following scripts independently:
 
 `batch_lm_word_scores_from_newsegments.py`
-  -> Vanilla Whisper confidence (lm_confidence) and entropy (lm_entropy).
+  -> Vanilla Whisper confidence (lm_confidence) and Vanilla entropy (lm_entropy).
 
 `batch_whisperx_alignment_scores_from_fulltext.py`
-  -> CTC word score (A_ctc) and entropy (audio_entropy).
+  -> CTC mean probability (A_ctc) and CTC entropy (audio_entropy). 
 
 `batch_decoding_consistency_from_newsegments.py`
-  -> Word-level decoding_consistency.
+  -> Decoding_consistency.
 
 `prepare_jasmin.py`
   -> Build a manifest using existing PR-ASR alignments and ASR segments.
@@ -36,7 +36,7 @@ Run the following scripts independently:
 
 `batch_ctc_contrast.py`
   -> Generate word_contrast.csv.
-     Word contrast = CTC score(prompt) - CTC score(ASR), using the same
+     Target-aware CTC contrast = CTC score(prompt) - CTC score(ASR), using the same
      audio window. It is generated for eligible substitution groups.
 
 `batch_merge_speaker_signal_tables.py` to merge the feature
