@@ -10,11 +10,9 @@ It remains unclear whether Whisper-based uncertainty signals carry
 information about error source. We develop a framework for evaluating Whisper-based uncertainty signals for word-level error-source
 attribution in low-resource Dutch child reading data. Results show
 that single uncertainty signals can carry measurable error-source
-information, although their discriminative ability varies across at
-tribution tasks and Whisper models. Aggregating complementary
+information, although their discriminative ability varies across attribution tasks and Whisper models. Aggregating complementary
 signals generally improves discrimination over vanilla uncertainty
-alone. Overall discriminative performance remains limited, how
-ever. These findings highlight both the potential and limitations of
+alone. Overall discriminative performance remains limited, however. These findings highlight both the potential and limitations of
 uncertainty-based signals for reliable and fair reading assessment.
 
 ## Data Split
