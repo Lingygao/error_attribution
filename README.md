@@ -13,7 +13,7 @@ that single uncertainty signals can carry measurable error-source
 information, although their discriminative ability varies across attribution tasks and Whisper models. Aggregating complementary
 signals generally improves discrimination over vanilla uncertainty
 alone. Overall discriminative performance remains limited, however. These findings highlight both the potential and limitations of
-uncertainty-based signals for reliable and fair reading assessment.
+uncertainty-based signals for reliable and fair child reading assessment.
 
 ## Data Split
 
