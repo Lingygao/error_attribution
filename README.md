@@ -22,7 +22,7 @@ Jasmin is a spoken Dutch corpus containing children, elderly and non-native Dutc
 We provide the training and testing filename lists `train.txt` and `test.txt` for replication
 
 ## Adjusted Phoneme-aware alignment (power alignment) and three-pass alignment
-The **documents** to describe the implementation logic, failure_mode and usage of both Adjusted Phoneme-aware alignment(power alignment) and three-pass alignment are in folder `Power_alignment/` and `/three-pass-alignment` repectively
+The **documents** to describe the implementation logic, hypothesis to support the design, failure_mode and usage of both Adjusted Phoneme-aware alignment(power alignment) and three-pass alignment are in folder `Power_alignment/` and `/three-pass-alignment` repectively
 
 The **code** to achieve the algorithm are in the main folder including adjusted power alignment: `/power-asr-master` and three-pass-alignment: `/build_alignment_label_table.py`, `/add_task_labels.py` etc
 
