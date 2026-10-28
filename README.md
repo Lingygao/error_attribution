@@ -2,7 +2,20 @@
 This is the code resporitory of paper: Can Whisper-Based Uncertainty Signals Reveal Error Sources? An Empirical Evaluation in Child Reading Assessment
 
 ## Abastract
-Trustworthy automated reading assessment for children requires distinguishing child-produced reading errors from ASR-induced errors. Misattributing ASR errors to children can lead to unfair or misleading feedback, yet it remains unclear whether Whisper-derived uncertainty signals encode information about error source in child speech. We analyze these signals for word-level error-source attribution for  Dutch child reading dataset. Results show that individual signals contain measurable error-source information, and that aggregating multiple signals improves AUC over single uncertainty signals. However, higher AUC does not consistently improve probability calibration, measured by expected calibration error, and performance varies across child age groups. These findings highlight both the potential and limitations of uncertainty-derived signals for reliable and fair reading assessment.
+Trustworthy speech diagnosis requires distinguishing child-produced
+reading errors from ASR-induced errors, especially in high-stakes
+applications such as child speech assessment. Misattribution of
+ASR errors to children can lead to unfair or misleading feedback.
+It remains unclear whether Whisper-based uncertainty signals carry
+information about error source. We develop a framework for evaluating Whisper-based uncertainty signals for word-level error-source
+attribution in low-resource Dutch child reading data. Results show
+that single uncertainty signals can carry measurable error-source
+information, although their discriminative ability varies across at
+tribution tasks and Whisper models. Aggregating complementary
+signals generally improves discrimination over vanilla uncertainty
+alone. Overall discriminative performance remains limited, how
+ever. These findings highlight both the potential and limitations of
+uncertainty-based signals for reliable and fair reading assessment.
 
 ## Data Split
 
