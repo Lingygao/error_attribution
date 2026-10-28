@@ -11,11 +11,10 @@ MT = manual transcript: the annotated realization of the child's speech.
 AO = ASR output: what the recognizer transcribed.
 
 C = correct match; S = substitution; I = insertion; D = deletion.
-These labels are relative to the reference and hypothesis in each pass.
-The term "hypothesis" in an alignment means its second input sequence;
-it is distinct from the research hypotheses listed at the end.
+These labels are relative to the reference and ASR hypothesis in each pass.
 
-0. hypothese
+
+0. Research hypothesis
 ------------------------------------------------
 
 H1. Decoding should be the main attempt of children in focused reading aloud task: motivation for filtering.
