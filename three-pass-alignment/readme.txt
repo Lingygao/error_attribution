@@ -3,8 +3,8 @@ THREE-PASS ALIGNMENT
 
 Purpose
 -------
-Connect the prompt, the manual transcript which reflects child's actual reading, and the ASR output 
-so that candidate ASR-detected reading errors can be attributed to the child or to the recognizer.
+Connect the prompt, the manual transcript, and the ASR output 
+so that candidate ASR-detected reading errors can be attributed to the child or to the ASR.
 
 PR = prompt: what the child was expected to read.
 MT = manual transcript: the annotated realization of the child's speech.
