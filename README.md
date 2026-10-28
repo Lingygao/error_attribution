@@ -55,10 +55,10 @@ and Aggregating all singals using logistic regression (LR)
 To evaluate, run the following scripts when the table, containing each word with task label and corresponding signals, is ready:
 
 `evaluate_six_signal_lr.py`
-  -> Trains LR models and eval on different metrics including AUC and 95% speaker-bootstrap. 
+  -> Trains LR models and evaluate on different metrics including AUC and 95% speaker-bootstrap. 
 
 `paired_all_vs_vanilla.py`
-  -> This is used when compare different settings of LR, extracts selected paired comparisons and checks them against the previously saved pairwise results
+  -> This is used when comparing different settings of LR, extracts selected paired comparisons and checks them against the previously saved pairwise results
 
 `six_signal_config.py`
   -> select signals
