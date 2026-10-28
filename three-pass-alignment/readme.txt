@@ -8,7 +8,7 @@ so that candidate ASR-detected reading errors can be attributed to the child or 
 
 PR = prompt: what the child was expected to read.
 MT = manual transcript: the annotated realization of the child's speech.
-AO = ASR output: what the recognizer transcribed.
+AO = ASR output: what the ASR recognizer transcribed (in our project Whisper large v2/v3).
 
 C = correct match; S = substitution; I = insertion; D = deletion.
 These labels are relative to the reference and ASR hypothesis in each pass.
