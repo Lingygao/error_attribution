@@ -3,7 +3,7 @@ THREE-PASS ALIGNMENT
 
 Purpose
 -------
-Connect the expected text, the child's actual reading, and the ASR output 
+Connect the prompt, the manual transcript which reflects child's actual reading, and the ASR output 
 so that candidate ASR-detected reading errors can be attributed to the child or to the recognizer.
 
 PR = prompt: what the child was expected to read.
