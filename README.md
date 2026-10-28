@@ -80,4 +80,4 @@ To evaluate, run the following scripts when the table, containing each word with
   ## Model
   Transcribing: `openai/whisper-large-v2`, `openai/whisper-large-v3`
   
-  Audio-text forced alignment: `GroNLP/wav2vec2-dutch-large`
+  Audio-text forced alignment: `GroNLP/wav2vec2-dutch-large-ft-cgn`
