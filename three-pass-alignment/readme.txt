@@ -79,7 +79,7 @@ Keep these project-relative paths:
     step 4
   /add_task_labels.py
     Core task-label rules. step 4
-  scripts/batch_add_task_labels.py
+  /batch_add_task_labels.py
     Batch wrapper for task labeling. step 4
 
 
