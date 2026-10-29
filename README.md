@@ -77,6 +77,9 @@ To evaluate, run the following scripts when the table, containing each word with
 `auc_ece.ipynb` is supportive file
   **notice: the evaluation can provides results of three tasks instead of two in the paper: santity check task task (correct vs incorrect classification) (not included in the paper), insertion mistake task (human vs ASR), substitution mistake task (human vs ASR)
 
+##  Acknowledgements
+This work is part of the project Responsible AI for Voice Diagnostics (RAIVD) with file number NGF.1607.22.013 of the research program NGF AiNed Fellowship Grants, which is financed by the Dutch Research Council (NWO).
+
   ## Model
   Transcribing: `openai/whisper-large-v2`, `openai/whisper-large-v3`
   
