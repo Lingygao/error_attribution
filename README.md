@@ -46,7 +46,7 @@ Run the following scripts independently:
      Requires the project data layout and train.txt/test.txt.
 
 `batch_ctc_contrast.py`
-  -> Generate word_contrast.csv.
+  -> Generate word_contrast.csv. including CTC score function
      Target-aware CTC contrast = CTC score(prompt) - CTC score(ASR), using the same
      audio window. It is generated for eligible substitution groups.
 
